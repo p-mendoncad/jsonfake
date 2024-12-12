@@ -6,9 +6,9 @@
     { "id": 3, "nome": "Marcelo Oliveira", "dataNascimento": "22/11/1980", "cpf": "44444444444", "email": "marcelo.oliveira@email.com", "celular": "9123-4567", "logradouro": "Rua do Sol", "numero": "101", "complemento": "Sala 502", "bairro": "Itaim Bibi", "cidade": "São Paulo", "estado": "SP", "cep": "04567-890", "fidelidade": 15}
   ],
   "racas":[
-    { "id": 1, "animal":"G", "nome": "Sphynx" },
-    { "id": 2, "animal":"C", "nome": "Labrador" },
-    { "id": 3, "animal":"C", "nome": "Bulldog Inglês" }
+    { "id": 1, "animal":"G", "nome": "Sphynx", "porte":"Pequeno" },
+    { "id": 2, "animal":"C", "nome": "Labrador", "porte":"Grande" },
+    { "id": 3, "animal":"C", "nome": "Bulldog Inglês", "porte":"Médio"}
   ],
   "pets": [
     { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "animal":"G", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
