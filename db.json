@@ -11,8 +11,8 @@
     { "id": 3, "animal":"C", "nome": "Bulldog Inglês" }
   ],
   "pets": [
-    { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
-    { "id": 2, "nome": "Pet 2", "dataNascimento": "15/08/2022", "peso": 13.2, "vacinaRaiva": "sim", "sexo": "F", "observacao": "tem pele sensível, usar xampu hipoalergênico","nomeRaca":"Labrador","racaId": 2, "cliente":"Ana Pereira" },
-    { "id": 3, "nome": "Pet 3", "dataNascimento": "03/05/2021", "peso": 8.7, "vacinaRaiva": "não", "sexo": "M", "observacao": "cuidado com barulho alto","nomeRaca":"Bulldog Inglês", "racaId": 3, "cliente":"Marcelo Oliveira" }
+    { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "animal":"G", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
+    { "id": 2, "nome": "Pet 2", "dataNascimento": "15/08/2022", "peso": 13.2, "vacinaRaiva": "sim", "sexo": "F", "observacao": "tem pele sensível, usar xampu hipoalergênico", "animal":"C","nomeRaca":"Labrador","racaId": 2, "cliente":"Ana Pereira" },
+    { "id": 3, "nome": "Pet 3", "dataNascimento": "03/05/2021", "peso": 8.7, "vacinaRaiva": "não", "sexo": "M", "observacao": "cuidado com barulho alto", "animal":"C","nomeRaca":"Bulldog Inglês", "racaId": 3, "cliente":"Marcelo Oliveira" }
   ]
 }
