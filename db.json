@@ -18,7 +18,7 @@
     "servicos": [
     { "id": 1, "nome": "Banho com tosa", "duracao": 60, "preco": 90.00},
     { "id": 2, "nome": "Banho Comum", "duracao": 30, "preco": 40.00 },
-    { "id": 3, "nome": "Tosa Individual", "duracao": 45, "preco": 50.00 }
+    { "id": 3, "nome": "Tosa Individual", "duracao": 45, "preco": 50.01 }
   ],
   "agendamentos":[
     {"id":1,"data":"2024-11-20","horario":"10:00","horaEntrada":"10:00","horaSaida":"11:00","servico":"Banho com tosa", "petId":1},
