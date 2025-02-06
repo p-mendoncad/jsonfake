@@ -6,14 +6,14 @@
     { "id": 3, "nome": "Marcelo Oliveira", "dataNascimento": "22/11/1980", "cpf": "44444444444", "email": "marcelo.oliveira@email.com", "celular": "9123-4567", "logradouro": "Rua do Sol", "numero": "101", "complemento": "Sala 502", "bairro": "Itaim Bibi", "cidade": "São Paulo", "estado": "SP", "cep": "04567-890", "fidelidade": 15}
   ],
   "racas":[
-    { "id": 1, "animal":"G", "nome": "Sphynx", "porte":"Pequeno" },
-    { "id": 2, "animal":"C", "nome": "Labrador", "porte":"Grande" },
-    { "id": 3, "animal":"C", "nome": "Bulldog Inglês", "porte":"Médio"}
+    { "id": 1, "animal":"Gato", "nome": "Sphynx", "porte":"Pequeno" },
+    { "id": 2, "animal":"Cachorro", "nome": "Labrador", "porte":"Grande" },
+    { "id": 3, "animal":"Cachorro", "nome": "Bulldog Inglês", "porte":"Médio"}
   ],
   "pets": [
-    { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "animal":"G", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
-    { "id": 2, "nome": "Pet 2", "dataNascimento": "15/08/2022", "peso": 13.2, "vacinaRaiva": "sim", "sexo": "F", "observacao": "tem pele sensível, usar xampu hipoalergênico", "animal":"C","nomeRaca":"Labrador","racaId": 2, "cliente":"Ana Pereira" },
-    { "id": 3, "nome": "Pet 3", "dataNascimento": "03/05/2021", "peso": 8.7, "vacinaRaiva": "não", "sexo": "M", "observacao": "cuidado com barulho alto", "animal":"C","nomeRaca":"Bulldog Inglês", "racaId": 3, "cliente":"Marcelo Oliveira" }
+    { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "animal":"Gato", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
+    { "id": 2, "nome": "Pet 2", "dataNascimento": "15/08/2022", "peso": 13.2, "vacinaRaiva": "sim", "sexo": "F", "observacao": "tem pele sensível, usar xampu hipoalergênico", "animal":"Cachorro","nomeRaca":"Labrador","racaId": 2, "cliente":"Ana Pereira" },
+    { "id": 3, "nome": "Pet 3", "dataNascimento": "03/05/2021", "peso": 8.7, "vacinaRaiva": "não", "sexo": "M", "observacao": "cuidado com barulho alto", "animal":"Cachorro","nomeRaca":"Bulldog Inglês", "racaId": 3, "cliente":"Marcelo Oliveira" }
   ],
     "servicos": [
     { "id": 1, "nome": "Banho com tosa", "duracao": 60, "preco": 90.00},
