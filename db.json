@@ -117,8 +117,8 @@
     { "id": 3, "nome": "Tosa Individual", "duracao": 45, "preco": 50.01}
   ],
   "agendamentos":[
-    {"id":1,"data":"2024-11-20","horario":"10:00","horaEntrada":"10:00","horaSaida":"11:00","servico":"Banho com tosa", "pet":"pet 1"},
-    {"id":2,"data":"2024-11-21","horario":"14:00","horaEntrada":"14:00","horaSaida":"15:00","servico":"Banho Comum", "pet":"pet 2"},
-    {"id":3,"data":"2024-11-22","horario":"09:30","horaEntrada":"09:30","horaSaida":"10:30","servico":"Tosa Individual", "pet":"pet 3"}
+    {"id":1,"data":"2024-11-20","horario":"10:00","horaEntrada":"10:00","horaSaida":"11:00","servico":"Banho com tosa", "pet":1},
+    {"id":2,"data":"2024-11-21","horario":"14:00","horaEntrada":"14:00","horaSaida":"15:00","servico":"Banho Comum", "pet":2},
+    {"id":3,"data":"2024-11-22","horario":"09:30","horaEntrada":"09:30","horaSaida":"10:30","servico":"Tosa Individual", "pet":3}
   ]
 }
