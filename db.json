@@ -1,19 +1,115 @@
 
 {
   "clientes": [
-    { "id": 1, "nome": "Carlos Silva", "dataNascimento": "15/03/1985", "cpf": "22222222222", "email": "carlos.silva@email.com", "celular": "9876-5432", "logradouro": "Avenida Brasil", "numero": "456", "complemento": "Casa 2", "bairro": "Centro", "cidade": "Rio de Janeiro", "estado": "RJ", "cep": "20000-000", "fidelidade": 35},
-    { "id": 2, "nome": "Ana Pereira", "dataNascimento": "10/07/1992", "cpf": "33333333333", "email": "ana.pereira@email.com", "celular": "9987-6543", "logradouro": "Rua das Acácias", "numero": "789", "complemento": "Bloco C - 304", "bairro": "Vila das Flores", "cidade": "Belo Horizonte", "estado": "MG", "cep": "30123-456", "fidelidade": 20 },
-    { "id": 3, "nome": "Marcelo Oliveira", "dataNascimento": "22/11/1980", "cpf": "44444444444", "email": "marcelo.oliveira@email.com", "celular": "9123-4567", "logradouro": "Rua do Sol", "numero": "101", "complemento": "Sala 502", "bairro": "Itaim Bibi", "cidade": "São Paulo", "estado": "SP", "cep": "04567-890", "fidelidade": 15}
+    { 
+      "id": 1, 
+      "nome": "Carlos Silva", 
+      "dataNascimento": "1985-03-15", 
+      "cpf": "22222222222", 
+      "email": "carlos.silva@email.com", 
+      "celular": "9876-5432", 
+      "logradouro": "Avenida Brasil", 
+      "numero": "456", 
+      "complemento": "Casa 2", 
+      "bairro": "Centro", 
+      "cidade": "Rio de Janeiro", 
+      "estado": "RJ", 
+      "cep": "20000-000", 
+      "fidelidade": 35
+    },
+    { 
+      "id": 2, 
+      "nome": "Ana Pereira", 
+      "dataNascimento": "1992-07-10", 
+      "cpf": "33333333333", 
+      "email": "ana.pereira@email.com", 
+      "celular": "9987-6543", 
+      "logradouro": "Rua das Acácias", 
+      "numero": "789", 
+      "complemento": "Bloco C - 304", 
+      "bairro": "Vila das Flores", 
+      "cidade": "Belo Horizonte", 
+      "estado": "MG", 
+      "cep": "30123-456", 
+      "fidelidade": 20 
+    },
+    { 
+      "id": 3, 
+      "nome": "Marcelo Oliveira", 
+      "dataNascimento": "1980-11-22", 
+      "cpf": "44444444444", 
+      "email": "marcelo.oliveira@email.com", 
+      "celular": "9123-4567", 
+      "logradouro": "Rua do Sol", 
+      "numero": "101", 
+      "complemento": "Sala 502", 
+      "bairro": "Itaim Bibi", 
+      "cidade": "São Paulo", 
+      "estado": "SP", 
+      "cep": "04567-890", 
+      "fidelidade": 15
+    }
   ],
-  "racas":[
-    { "id": 1, "animal":"Gato", "nome": "Sphynx", "porte":"Pequeno" },
-    { "id": 2, "animal":"Cachorro", "nome": "Labrador", "porte":"Grande" },
-    { "id": 3, "animal":"Cachorro", "nome": "Bulldog Inglês", "porte":"Médio"}
+  "racas": [
+    { 
+      "id": 1, 
+      "animal": "Gato", 
+      "nome": "Sphynx", 
+      "porte": "Pequeno" 
+    },
+    { 
+      "id": 2, 
+      "animal": "Cachorro", 
+      "nome": "Labrador", 
+      "porte": "Grande" 
+    },
+    { 
+      "id": 3, 
+      "animal": "Cachorro", 
+      "nome": "Bulldog Inglês", 
+      "porte": "Médio"
+    }
   ],
   "pets": [
-    { "id": 1, "nome": "Pet 1", "dataNascimento": "01/01/2024", "peso": 3.3, "vacinaRaiva": "sim",  "sexo": "M", "observacao": "não usar xampu com sal", "animal":"Gato", "nomeRaca":"Sphynx","racaId": 1, "cliente":"Carlos Silva"},
-    { "id": 2, "nome": "Pet 2", "dataNascimento": "15/08/2022", "peso": 13.2, "vacinaRaiva": "sim", "sexo": "F", "observacao": "tem pele sensível, usar xampu hipoalergênico", "animal":"Cachorro","nomeRaca":"Labrador","racaId": 2, "cliente":"Ana Pereira" },
-    { "id": 3, "nome": "Pet 3", "dataNascimento": "03/05/2021", "peso": 8.7, "vacinaRaiva": "não", "sexo": "M", "observacao": "cuidado com barulho alto", "animal":"Cachorro","nomeRaca":"Bulldog Inglês", "racaId": 3, "cliente":"Marcelo Oliveira" }
+    { 
+      "id": 1, 
+      "nome": "Pet 1", 
+      "dataNascimento": "2024-01-01", 
+      "peso": 3.3, 
+      "vacinaRaiva": "sim",  
+      "sexo": "M", 
+      "observacao": "não usar xampu com sal", 
+      "animal": "Gato", 
+      "nomeRaca": "Sphynx", 
+      "racaId": 1, 
+      "cliente": "Carlos Silva"
+    },
+    { 
+      "id": 2, 
+      "nome": "Pet 2", 
+      "dataNascimento": "2022-08-15", 
+      "peso": 13.2, 
+      "vacinaRaiva": "sim", 
+      "sexo": "F", 
+      "observacao": "tem pele sensível, usar xampu hipoalergênico", 
+      "animal": "Cachorro",
+      "nomeRaca": "Labrador",
+      "racaId": 2,
+      "cliente": "Ana Pereira" 
+    },
+    { 
+      "id": 3, 
+      "nome": "Pet 3", 
+      "dataNascimento": "2021-05-03", 
+      "peso": 8.7, 
+      "vacinaRaiva": "não", 
+      "sexo": "M", 
+      "observacao": "cuidado com barulho alto", 
+      "animal": "Cachorro", 
+      "nomeRaca": "Bulldog Inglês", 
+      "racaId": 3, 
+      "cliente": "Marcelo Oliveira"
+    }
   ],
     "servicos": [
     { "id": 1, "nome": "Banho com tosa", "duracao": 60, "preco": 90.00},
